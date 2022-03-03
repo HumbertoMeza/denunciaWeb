@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="stylesheet" href="Estilos/responsive.css">
+</head>
+
+<body>
+    <div class="headers">
+        <div class="navbar">
+
+            <button class="btn btn-primary btn-sm" id="logout">
+                Logout
+            </button>
+        </div>
+        <div class="container-fluid">
+
+            <div class="panel1">
+                <div class="cubo-titulo">
+                    <h4 class="superTitle">Reportes</h4>
+                </div>
+                <div class="reportes" id="reportes">
+
+                </div>
+            </div>
+            <div class="panel2">
+                <div class="visualizador" id="viewer">
+                    <div class="view">
+                        <h5> Visualizador </h5>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <h4>Derechos reservados copyright@jorgeFischer</h4>
+            </footer>
+        </div>
+
+    </div>
+    <div class="sidebar">
+        <h4 class="titulo">Proyecto Denuncia </h4>
+
+
+        <div class="contenido">
+            <img class="foto" src="img/AdminLogo.png" alt="">
+            <h1 class="admin">admin</h1>
+        </div>
+
+        <div class="lista">
+            <a class="w3-bar-item w3-button" style="width: 100%; text-align: left;"><p>Reportes</p></a>
+            <a href="/reportes_atendidos" class="w3-bar-item w3-button" style="width: 100%; text-align: left;"><p>Atendidos por mi</p></a>
+            <a href="/reportes_pendientes" class="w3-bar-item w3-button" style="width: 100%; text-align: left;"><p>Pendientes</p></a>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="js/cargaHome.js"></script>
+<script src="js/logout.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+
+
+</html>
